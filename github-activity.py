@@ -3,7 +3,7 @@ import json
 import urllib.request
 import urllib.error
 
-if sys.argv[0] == "ghactivityCLI.py":
+if sys.argv[0] == "github-activity.py":
     username = sys.argv[1]
     url = f"https://api.github.com/users/{username}/events/public"
     urllib.request.urlopen(url)
